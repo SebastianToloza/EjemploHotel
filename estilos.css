@@ -4,14 +4,40 @@ div{
 #CuerpoPrincipal{
     background-color: aquamarine;
     width: 90%;
+    height: 1320px;
     margin: 0 auto;
     padding: 2%;
     box-shadow: 4px 8px 9px 10px red;
     display: flex;
-    position: relative;
+    flex-direction: column;    
 }
 
-.CapaGeneral{
+#DivHead{
+    width: 100%;
+    height: 10%;
+    background-color: aqua;
+    margin: 2px;
+}
+#DivBody{
+    height: 80%;
+    width: 100%;
+    margin: 2px;
+    background-color: bisque;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.InternalDiv{
+    width: 45%;
+    background-color: rgb(255, 153, 0);
+}
+
+#Pies{
+    margin: 2px;
     background-color: aquamarine;
-    margin: 5%;
+    height: 10%;
+    width: 100%;
+    background-color: brown;
 }
