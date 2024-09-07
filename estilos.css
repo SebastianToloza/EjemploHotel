@@ -1,0 +1,17 @@
+div{
+    border: 1px solid;
+}
+#CuerpoPrincipal{
+    background-color: aquamarine;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2%;
+    box-shadow: 4px 8px 9px 10px red;
+    display: flex;
+    position: relative;
+}
+
+.CapaGeneral{
+    background-color: aquamarine;
+    margin: 5%;
+}
